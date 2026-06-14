@@ -1,0 +1,110 @@
+/* select universal */
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+/* seccion de encabezado */
+/* selector de etiqueta */
+header{
+    background-color: #34495E;
+    text-align: center;
+    padding: 25px;
+}
+
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+/* seccion sobre mi */
+/* selector de ID */
+#perfil{
+    background-color: #ecf0f1;
+    padding: 30px;
+    text-align: center;
+
+}
+
+#foto{
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px #34495E;
+    margin-bottom: 20px;
+}
+
+/* selector descendente */
+#perfil p{
+    color: #2C3E50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+}
+
+#perfil h2{
+    color: #34495E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+/* seccion habilidades tecnologicas */
+/* selector de clase */
+.habilidades{
+    background-color: #bdc3c7;
+    padding: 25px;
+    text-align: center;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    color: #34495E;
+    margin-bottom: 20px;
+}
+
+.habilidades ol{
+    color: #2C3E50;
+    max-width: 100px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+li{
+    margin-top: 8px;
+}
+
+/* seccion de pie de pagina */
+footer{
+    background-color: #34495E;
+    padding: 30px;
+    text-align: center;
+}
+
+footer a{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 30px;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 15px 20px;
+}
+
+/* selector de pseudo-clase */
+a:hover{
+    background-color: white;
+    color: #34495E;
+    transition: 0.7s;
+}
+
+hr{
+    border-top: 1px solid #34495E;
+    margin: 20px auto;
+    width: 50%;
+    
+}
